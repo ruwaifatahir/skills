@@ -1,0 +1,22 @@
+{
+  "name": "ruwaifatahir-skills",
+  "owner": {
+    "name": "Ruwaifa Tahir",
+    "url": "https://github.com/ruwaifatahir"
+  },
+  "metadata": {
+    "description": "Agent Skills by Ruwaifa Tahir",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "recall-drill",
+      "description": "Closed-book free-recall drill: write down what you remember from something you read, get graded against the source, and work the gaps with cues before answers are revealed.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/recall-drill"
+      ]
+    }
+  ]
+}
