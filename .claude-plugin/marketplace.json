@@ -17,6 +17,15 @@
       "skills": [
         "./skills/recall-drill"
       ]
+    },
+    {
+      "name": "teach-back",
+      "description": "Teaches any text you supply one concept at a time, and has you explain each concept back in your own words before the next one opens.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/teach-back"
+      ]
     }
   ]
 }

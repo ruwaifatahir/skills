@@ -11,6 +11,9 @@ so it works in Claude Code, Claude.ai, Codex, Cursor, and other agents that read
 | Skill | What it does |
 | --- | --- |
 | [recall-drill](./skills/recall-drill) | Quizzes you on something you just read. You write down everything you remember, closed-book; it grades that against the source and cues each gap before revealing it. Built on retrieval-practice research ([evidence](./skills/recall-drill/references/EVIDENCE.md)). |
+| [teach-back](./skills/teach-back) | Teaches something you have not read yet, one concept at a time, and has you explain each one back in your own words before the next one opens. Built on self-explanation and learning-by-teaching research ([evidence](./skills/teach-back/references/EVIDENCE.md)). |
+
+Use them in order: **teach-back** while you learn a section, **recall-drill** after you have read it.
 
 ## Install
 
@@ -23,7 +26,7 @@ npx skills add ruwaifatahir/skills
 One skill only:
 
 ```bash
-npx skills add ruwaifatahir/skills --skill recall-drill
+npx skills add ruwaifatahir/skills --skill teach-back
 ```
 
 ### Claude Code plugin marketplace
@@ -31,6 +34,7 @@ npx skills add ruwaifatahir/skills --skill recall-drill
 ```
 /plugin marketplace add ruwaifatahir/skills
 /plugin install recall-drill@ruwaifatahir-skills
+/plugin install teach-back@ruwaifatahir-skills
 ```
 
 ### Manual
